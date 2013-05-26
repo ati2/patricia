@@ -1,0 +1,1 @@
+At this point, all usr pages call usr_model and new adm queries are in adm_model. I'm pretty sure thats not how its supposed to work. I'm not even sure what the data_model even is. I think it was a test or a bad adventure. I should check what uses it. probably not much
