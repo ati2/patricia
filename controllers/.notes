@@ -1,0 +1,26 @@
+adm	-administrative
+login	-
+support	-user guide
+usr	-user front end
+
+-- ----------------- adm ---------------------- --
+The data viewer and editor.
+There are some fun queries in the adm_model. Currently doing most work here. Working on listing/filtering/sorting data. I'm a little curious to know how other churches do it. Juan was more interested in a reporting tool. Patricia's looking for a full suite growth tracker.
+
+-- ---------------- login --------------------- --
+Username links to a group account or to an adm end. 
+Will come back to this once i have the system for changing/storing/hashing a password is implemented from the adm side.
+
+-- --------------- support -------------------- --
+not my problem
+provides pictures and txt
+will probably swap the existing text with words from a delimited txt file or maybe a db table to allow adm to edit and write it up in a bit.
+
+-- ----------------- usr ---------------------- --
+Its functional. Allows user to input counts, send messages, change settings. I will come back towards the end to clean up some of the ugly workarounds like the settings page header >.< 
+
+I think the cookies setting to remember users when page changing is broken or not implemented though. Considering changing it to an ajax form and having the db overwrite changes with same date and timestamp +-1h or something like that. saves a click on the user end.
+
+Need to add another page to add more data. Patricia wants the sgo leaders to track a lot of things. trying to simplify it though. 
+
+Need to look at the mobile site again. I dont think the icons are sized well. Havent looked at it wiht the calendar on it neither. 

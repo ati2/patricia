@@ -1,0 +1,27 @@
+Hello. 
+This is the main folders under application with the code igniter framework. 
+
+-- --------------- purpose -------------------- --
+simplifiy communication of small group attendence. 
+increase communications of changes to administrators
+provide reports to track growth of individuals and groups
+give feedback to encourage users. 
+
+-- ---------------- system -------------------- --
+code igniter php framework
+hosted with bluehost
+db mysql
+
+-- ---------------- docs ---------------------- --
+The main dirs are 
+-controllers
+-views
+-models
+-src
+replace a clean src of code igniter with the first 3 folders.
+src goes at the top level. 
+each directory has a .notes file explaining the main files.
+
+
+
+5/25 lets say v.7
